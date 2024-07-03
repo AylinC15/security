@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styleshop.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/img/logo.png" alt="logo">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="shop-header">
+            <div class="container-shop">
+                <h1>Productos Disponibles</h1>
+            </div>
+        </section>
+        
+        <section class="shop">
+            <div class="container">
+                <div class="shop-options">                
+                <div class="products-grid">
+                    <div class="product-item">
+                        <img src="/image.img/taladro.png" alt="Taladro Percutor">
+                        <div class="product-info">
+                            <h3>Taladro Percutor</h3>
+                            <p>18V GSB 180-LI</p>
+                            <span class="price">S/. 399.00 </span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="/image.img/cabezal-angular.png" alt="Cabezal Angular">
+                        <div class="product-info">
+                            <h3>Cabezal Angular</h3>
+                            <p>DREMEL</p>
+                            <span class="price">S/. 224.00</span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="/image.img/roto-martillo.png" alt="Roto Martillo">
+                        <div class="product-info">
+                            <h3>Roto Martillo</h3>
+                            <p>Plus 800 W. Bosch Gbh 2-26 Dre</p>
+                            <span class="price">S/. 855.00 </span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="/img/ruteador.png" alt="Ruteador">
+                        <div class="product-info">
+                            <h3>Ruteador</h3>
+                            <p>900W 27000rpm Makita Mt</p>
+                            <span class="price">S/. 395.00</span>
+                            <div class="button-container">
+                                <button class="btn editar">
+                                    <img src="../static/img/editar.png" alt="Editar Icono">
+                                    Editar
+                                </button>
+                                <button class="btn eliminar">
+                                    <img src="../static/img/basura.png" alt="Eliminar Icono">
+                                    Eliminar
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="/image.img/pistola-silicona.png" alt="Pistola De Silicona">
+                        <div class="product-info">
+                            <h3>Pistola De Silicona</h3>
+                            <p>EGGU1401 20 Watts</p>
+                            <span class="price">S/. 17.90 </span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="/image.img/pistola-calor.png" alt="Pistola De Calor">
+                        <div class="product-info">
+                            <h3>Pistola De Calor</h3>
+                            <p>2000W GHG 20-63</p>
+                            <span class="price">S/. 488.0 <del>S/. 514.00</del></span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="/image.img/sierra-caladora.png" alt="Sierra Caladora">
+                        <div class="product-info">
+                            <h3>Sierra Caladora</h3>
+                            <p>650W DWE300 Dewalt</p>
+                            <span class="price">S/. 422.00</span>
+                        </div>
+                       
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/cautin.png" alt="Cautin">
+                        <div class="product-info">
+                            <h3>Cautin</h3>
+                            <p>220V-30W T.lápicero madera Promatisa</p>
+                            <span class="price">S/. 15.87</span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/bateria.png" alt="Bateria">
+                        <div class="product-info">
+                            <h3>Bateria</h3>
+                            <p>Cargador + batería 4.0 Ah 18v Starter</p>
+                            <span class="price">S/. 195.70 </span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/bateria-iones.png" alt="Bateria-iones">
+                        <div class="product-info">
+                            <h3>Bateria-iones</h3>
+                            <p>Batería iones de litio GBA 12V 2,0AH</p>
+                            <span class="price">S/. 118.75</span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/cable-red.png" alt="Cable Rojo">
+                        <div class="product-info">
+                            <h3>Celsa Rojo 100m</h3>
+                            <p>Cable THW-90 450/750 V 14 AWG </p>
+                            <span class="price">S/. 137.75 </span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/cable-black.png" alt="Cable Negro">
+                        <div class="product-info">
+                            <h3>Celsa Negro 100m</h3>
+                            <p>Cable THW-90 450/750 V 14 AWG </p>
+                            <span class="price">S/. 137.75 </span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/cable-blue.png" alt="Cable Azul">
+                        <div class="product-info">
+                            <h3>Celsa Azul 100m</h3>
+                            <p>Cable THW-90 450/750 V 14 AWG</p>
+                            <span class="price">S/. 137.75</span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/Tablero-empotrable.png" alt="Tablero Empotrable">
+                        <div class="product-info">
+                            <h3>Tablero Empotrable</h3>
+                            <p>PVC con tapa 12 polos</p>
+                            <span class="price">S/. 43.69</span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/Medidor-luz.png" alt="Medidor">
+                        <div class="product-info">
+                            <h3>Medidor de Luz</h3>
+                            <p>Kit de instalación</p>
+                            <span class="price">S/. 117.80 </span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-item">
+                        <img src="image.img/Medidor-digital.png" alt="Medidor Digital">
+                        <div class="product-info">
+                            <h3>Medidor digital monofásico</h3>
+                            <p> 60hz Tkl</p>
+                            <span class="price">S/. 94.00</span>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

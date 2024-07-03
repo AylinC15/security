@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.body {
+  background: url('/img/background.png');
+  background-size: cover;
+  padding: 8px;
+  height: 100vh;
+}
+
+.main {
+  background-color: #fffffff7;
+  margin-left: auto;
+  max-width: 500px;
+  padding: 24px;
+  min-height: 100%;
+}
+
+.logo {
+  margin-left: auto;
+  height: 64px;
+  display: block;
+}
+
+.main h1 {
+  font-size: 1.75rem;
+  margin: 32px 0;
+  color: #333;
+}
+
+/* form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.login-form label {
+  color: #777;
+}
+
+.login-form label[for='password'] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visibility-icon {
+  font-size: 0.9rem !important;
+  cursor: pointer;
+}
+
+.login-form input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 2.5rem;
+  margin: 4px 0 16px 0;
+  padding-left: 8px;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+input:focus {
+  outline: 1px solid #777;
+}
+
+.login-form button {
+  background-color: #777;
+  color: #fff;
+  border: none;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  width: 50%;
+  margin: 8px 0;
+}
+
+.login-form button:hover {
+  background-color: #14374b;
+  cursor: pointer;
+}
+
+.login-form a {
+  color: #111;
+  align-self: flex-end;
+}
